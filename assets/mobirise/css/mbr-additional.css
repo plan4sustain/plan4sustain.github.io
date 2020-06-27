@@ -3394,11 +3394,14 @@ section.lazy-placeholder:after {
 }
 .cid-s380kBbxUN {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 0px;
   background-color: #ffffff;
 }
 .cid-s380kBbxUN .mbr-section-subtitle {
   color: #767676;
+  text-align: left;
+}
+.cid-s380kBbxUN .mbr-section-subtitle DIV {
   text-align: left;
 }
 .cid-s380kBAX6m .navbar {
