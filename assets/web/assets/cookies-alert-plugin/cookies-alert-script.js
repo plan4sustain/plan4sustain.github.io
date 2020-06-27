@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+!function(){try{document.getElementsByClassName("engine")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.className="engine";a.innerHTML='<a href="https://mobirise.ws">Mobirise Website Builder</a> v4.12.4';document.body.insertBefore(a,document.body.childNodes[0])}}();
+>>>>>>> 2b0a3244616ee7693486f2746a6b65aa507e82f1
 jQuery(function () {
     var $ = jQuery,
         tmpInput = $('input[name=cookieData]');
@@ -23,4 +27,7 @@ jQuery(function () {
 
     tmpInput.remove();
 });
+<<<<<<< HEAD
 !function(){try{document.getElementsByClassName("engine")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.className="engine";a.innerHTML='<a href="https://mobirise.ws">Mobirise Website Builder</a> v4.12.4';document.body.insertBefore(a,document.body.childNodes[0])}}();
+=======
+>>>>>>> 2b0a3244616ee7693486f2746a6b65aa507e82f1
