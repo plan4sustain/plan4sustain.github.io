@@ -62,10 +62,10 @@
     "witsec-mailform": true,
     "favicon": false,
     "imageResize": true,
-    "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "robotsSwitcher": true,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://plan4sustain.pt",
     "cookiesAlert": {
       "customDialogSelector": false,
       "colorText": "#424a4d",
@@ -87,7 +87,9 @@
       "colorLink": "#149dcc",
       "underlineLink": false,
       "text": "Ao continuar estará a concordar com os nossos <a href='https://plan4sustain.pt/termos.html'>Termos de Utilização</a> e com a nossa <a href='https://plan4sustain.pt/privacidade.html'>Política de Privacidade</a>."
-    }
+    },
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-171062529-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-171062529-1');\n</script>",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n"
   },
   "pages": {
     "index.html": {
