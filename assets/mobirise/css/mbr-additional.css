@@ -1156,7 +1156,7 @@ section.lazy-placeholder:after {
 .cid-s37HaVJ4Yv .mbr-section-subtitle {
   color: #767676;
   font-weight: 300;
-  text-align: left;
+  text-align: center;
 }
 .cid-s37HaVJ4Yv .mbr-content-text {
   color: #767676;
@@ -1656,6 +1656,7 @@ section.lazy-placeholder:after {
 }
 .cid-s2QmTIx06s .mbr-section-subtitle {
   color: #767676;
+  text-align: left;
 }
 .cid-s2QmTIx06s .mbr-text {
   color: #767676;
