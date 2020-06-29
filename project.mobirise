@@ -60,7 +60,7 @@
     "witsec-mailform-recaptcha-secretkey": "",
     "witsec-mailform-recaptcha-score": "0.5",
     "witsec-mailform": true,
-    "favicon": "@PROJECT_PATH@/assets/images/favicon-102x97.png",
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-102x97-1.png",
     "imageResize": true,
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
