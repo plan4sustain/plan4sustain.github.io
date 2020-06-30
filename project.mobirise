@@ -79,7 +79,7 @@
       "textButton": "Concordo"
     },
     "witsec-white-label": true,
-    "uniqCompNum": 107,
+    "uniqCompNum": 110,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "gdpr": {
@@ -1195,7 +1195,7 @@
           "_params": {
             "modalName": "Contacte-nos",
             "modalSize": "large",
-            "modalHeader": true,
+            "modalHeader": false,
             "modalTitle": "Deseja saber mais?",
             "modalBody": "Saiba o que podemos fazer por si.",
             "modalBodyHTML": false,
@@ -1206,12 +1206,12 @@
             "modalLinkUrl": "https://plan4sustain.pt/contactos.html",
             "modalLinkText": "Contactar",
             "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
+            "modalVerticalCenter": true,
             "modalFade": true,
             "modalAutoOpen": true,
             "modalAutoOpenOnce": true,
             "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": 0
+            "modalAutoOpenDelay": "5"
           },
           "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Contacte-nos\">Preview Contacte-nos</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Contacte-nos-howtouse\">How to use Contacte-nos</a>\n</div>\n<div class=\"modal fade\" id=\"Contacte-nos-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Contacte-nos-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Contacte-nos-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Contacte-nos')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
           "modalBody": "Saiba o que podemos fazer por si.",
@@ -1221,7 +1221,7 @@
           ],
           "_name": "witsec-modal-window-block",
           "_anchor": "witsec-modal-window-block-2w",
-          "modalWindow": "<div class=\"modal fade\" id=\"Contacte-nos\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Contacte-nosLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"Contacte-nosLabel\">Deseja saber mais?</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Contacte-nos_body\">Saiba o que podemos fazer por si.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Fechar</a></div><div class=\"mbr-section-btn\"><a href=\"https://plan4sustain.pt/contactos.html\" class=\"no-anim btn btn-primary display-4\" target=_new>Contactar</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Contacte-nos\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Contacte-nos_body\" ).html();    $( \"#Contacte-nos_body\" ).empty();    $( \"#Contacte-nos_body\" ).append(html);  })});</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"Contacte-nos\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Contacte-nosLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-body\" id=\"Contacte-nos_body\">Saiba o que podemos fazer por si.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Fechar</a></div><div class=\"mbr-section-btn\"><a href=\"https://plan4sustain.pt/contactos.html\" class=\"no-anim btn btn-primary display-4\" target=_new>Contactar</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Contacte-nos\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Contacte-nos_body\" ).html();    $( \"#Contacte-nos_body\" ).empty();    $( \"#Contacte-nos_body\" ).append(html);  })});</script>"
         }
       ]
     },
@@ -1848,7 +1848,7 @@
           "_params": {
             "modalName": "Contacte-nos",
             "modalSize": "large",
-            "modalHeader": true,
+            "modalHeader": false,
             "modalTitle": "Deseja saber mais?",
             "modalBody": "Saiba o que podemos fazer por si.",
             "modalBodyHTML": false,
@@ -1859,12 +1859,12 @@
             "modalLinkUrl": "https://plan4sustain.pt/contactos.html",
             "modalLinkText": "Contactar",
             "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
+            "modalVerticalCenter": true,
             "modalFade": true,
             "modalAutoOpen": true,
             "modalAutoOpenOnce": true,
             "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": 0
+            "modalAutoOpenDelay": "5"
           },
           "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Contacte-nos\">Preview Contacte-nos</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Contacte-nos-howtouse\">How to use Contacte-nos</a>\n</div>\n<div class=\"modal fade\" id=\"Contacte-nos-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Contacte-nos-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Contacte-nos-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Contacte-nos')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
           "modalBody": "Saiba o que podemos fazer por si.",
@@ -1873,8 +1873,8 @@
             "Extension"
           ],
           "_name": "witsec-modal-window-block",
-          "_anchor": "witsec-modal-window-block-2x",
-          "modalWindow": "<div class=\"modal fade\" id=\"Contacte-nos\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Contacte-nosLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"Contacte-nosLabel\">Deseja saber mais?</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Contacte-nos_body\">Saiba o que podemos fazer por si.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Fechar</a></div><div class=\"mbr-section-btn\"><a href=\"https://plan4sustain.pt/contactos.html\" class=\"no-anim btn btn-primary display-4\" target=_new>Contactar</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Contacte-nos\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Contacte-nos_body\" ).html();    $( \"#Contacte-nos_body\" ).empty();    $( \"#Contacte-nos_body\" ).append(html);  })});</script>"
+          "_anchor": "witsec-modal-window-block-30",
+          "modalWindow": "<div class=\"modal fade\" id=\"Contacte-nos\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Contacte-nosLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-body\" id=\"Contacte-nos_body\">Saiba o que podemos fazer por si.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Fechar</a></div><div class=\"mbr-section-btn\"><a href=\"https://plan4sustain.pt/contactos.html\" class=\"no-anim btn btn-primary display-4\" target=_new>Contactar</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Contacte-nos\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Contacte-nos_body\" ).html();    $( \"#Contacte-nos_body\" ).empty();    $( \"#Contacte-nos_body\" ).append(html);  })});</script>"
         }
       ]
     },
@@ -2418,7 +2418,7 @@
           "_params": {
             "modalName": "Contacte-nos",
             "modalSize": "large",
-            "modalHeader": true,
+            "modalHeader": false,
             "modalTitle": "Deseja saber mais?",
             "modalBody": "Saiba o que podemos fazer por si.",
             "modalBodyHTML": false,
@@ -2429,12 +2429,12 @@
             "modalLinkUrl": "https://plan4sustain.pt/contactos.html",
             "modalLinkText": "Contactar",
             "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
+            "modalVerticalCenter": true,
             "modalFade": true,
             "modalAutoOpen": true,
             "modalAutoOpenOnce": true,
             "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": 0
+            "modalAutoOpenDelay": "5"
           },
           "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Contacte-nos\">Preview Contacte-nos</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#Contacte-nos-howtouse\">How to use Contacte-nos</a>\n</div>\n<div class=\"modal fade\" id=\"Contacte-nos-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Contacte-nos-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"Contacte-nos-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('Contacte-nos')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
           "modalBody": "Saiba o que podemos fazer por si.",
@@ -2443,8 +2443,8 @@
             "Extension"
           ],
           "_name": "witsec-modal-window-block",
-          "_anchor": "witsec-modal-window-block-2y",
-          "modalWindow": "<div class=\"modal fade\" id=\"Contacte-nos\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Contacte-nosLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"Contacte-nosLabel\">Deseja saber mais?</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"Contacte-nos_body\">Saiba o que podemos fazer por si.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Fechar</a></div><div class=\"mbr-section-btn\"><a href=\"https://plan4sustain.pt/contactos.html\" class=\"no-anim btn btn-primary display-4\" target=_new>Contactar</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Contacte-nos\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Contacte-nos_body\" ).html();    $( \"#Contacte-nos_body\" ).empty();    $( \"#Contacte-nos_body\" ).append(html);  })});</script>"
+          "_anchor": "witsec-modal-window-block-31",
+          "modalWindow": "<div class=\"modal fade\" id=\"Contacte-nos\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"Contacte-nosLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-body\" id=\"Contacte-nos_body\">Saiba o que podemos fazer por si.</div><div class=\"modal-footer\"><div class=\"mbr-section-btn\"><a href=\"#\" class=\"no-anim btn btn-secondary display-4\" data-dismiss=\"modal\">Fechar</a></div><div class=\"mbr-section-btn\"><a href=\"https://plan4sustain.pt/contactos.html\" class=\"no-anim btn btn-primary display-4\" target=_new>Contactar</a></div></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#Contacte-nos\").on(\"hidden.bs.modal\", function () {    var html = $( \"#Contacte-nos_body\" ).html();    $( \"#Contacte-nos_body\" ).empty();    $( \"#Contacte-nos_body\" ).append(html);  })});</script>"
         }
       ]
     },
