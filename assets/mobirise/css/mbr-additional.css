@@ -4128,13 +4128,16 @@ section.lazy-placeholder:after {
 .cid-s4wXNB0Zf8 .dropdown-item:hover {
   color: #c1c1c1 !important;
 }
-.cid-s4wYKPgZnw {
-  padding-top: 120px;
-  padding-bottom: 60px;
-  background-color: #ffffff;
+.cid-s4x9LcTFEO {
+  background-image: url("../../../assets/images/mbr-1920x1279.jpg");
 }
-.cid-s4wYKPgZnw .mbr-section-subtitle {
+.cid-s4x9LcTFEO P {
   color: #767676;
+}
+.cid-s4x9LcTFEO .mbr-text,
+.cid-s4x9LcTFEO .mbr-section-btn {
+  text-align: left;
+  color: #ffffff;
 }
 .cid-s4wZ56UeFJ {
   padding-top: 30px;
