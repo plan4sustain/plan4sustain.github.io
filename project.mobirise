@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Plan4Sustain",
-    "currentPage": "termos.html",
+    "currentPage": "artigos_sustentabilidade_mantra_2020_07_12.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -79,7 +79,7 @@
       "textButton": "Concordo"
     },
     "witsec-white-label": true,
-    "uniqCompNum": 138,
+    "uniqCompNum": 140,
     "versionPublish": "5.0.13",
     "screenshot": "screenshot.png",
     "gdpr": {
@@ -3713,8 +3713,7 @@
       "settings": {
         "meta_descr": "A procura por produtos sustentáveis foi alvo de estudo pela International Trade Centre, com o financiamento da Comissão Europeia Direcção Geral do Comércio (...)\n",
         "title": "Sustentabilidade: O mantra para retalhistas e consumidores",
-        "order": 4,
-        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x1440.jpg"
+        "order": 4
       },
       "components": [
         {
