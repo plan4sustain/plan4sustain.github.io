@@ -79,8 +79,8 @@
       "textButton": "Concordo"
     },
     "witsec-white-label": true,
-    "uniqCompNum": 152,
-    "versionPublish": "5.0.16",
+    "uniqCompNum": 154,
+    "versionPublish": "5.0.23",
     "screenshot": "screenshot.png",
     "gdpr": {
       "colorText": "#a7a7a7",
@@ -1800,6 +1800,110 @@
           "_params": {}
         },
         {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when not (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content6",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"artigos_sustentabilidade_mantra_2020_07_12.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-1920x1440.jpeg\" alt=\"Imagem do artigo sustentabilidade - o mantra para retalhistras e consumidores - plan4sustain\" title=\"IImagem do artigo sustentabilidade - o mantra para retalhistras e consumidores - plan4sustain\"></a>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br><i>2020-07-12 </i>&nbsp;<b>Sustentabilidade: O mantra para retalhistas e consumidores</b><br>A procura por produtos sustentáveis foi alvo de estudo pela International Trade Centre, com o financiamento da Comissão Europeia Direcção Geral do Comércio. Este é um sector que, em 2018, vendeu mais 40,7 mil milhões de euros na União Europeia(<a href=\"artigos_sustentabilidade_mantra_2020_07_12.html\" class=\"text-primary\">ler...</a>)<br><br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content6-49",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "s7EcnwUYRF",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "& when not (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content6",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\">  \n      <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <a href=\"artigos_modelos-negocio-sustentaveis_2020_07_23.html\"><img src=\"@PROJECT_PATH@/assets/images/mbr-1920x1281.jpg\" alt=\"Imagem do artigo Modelos de negócio sustentáveis - plan4sustain\" title=\"Imagem do artigo Modelos de negócio sustentáveis - plan4sustain\"></a>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br><i>2020-07-23&nbsp;</i>&nbsp;<b>Modelos de negócios sustentáveis</b> <br>A primeira questão que emerge quando falamos de sustentabilidade é a questão de “valor”. Empresas e escolas de negócios falam profusamente de valor, mas o que é valor?  (ler...)<br><br></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s7Ebo31Dlz",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content6-48"
+        },
+        {
           "_styles": {
             ".navbar": {
               "padding": ".5rem 0",
@@ -2204,63 +2308,6 @@
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".counter-container": {
-              "color": "#767676",
-              "ul": {
-                "margin-bottom": "0",
-                "li": {
-                  "margin-bottom": "1rem",
-                  "& when (@stylizedCounters)": {
-                    "list-style": "none",
-                    "position": "relative",
-                    "&:before": {
-                      "position": "absolute",
-                      "left": "-56px",
-                      "margin-top": "-10px",
-                      "padding-top": "3px",
-                      "content": "''",
-                      "display": "inline-block",
-                      "text-align": "center",
-                      "margin": "5px 10px",
-                      "line-height": "20px",
-                      "transition": "all .2s",
-                      "color": "contrast(@counterColor)",
-                      "background": "@counterColor",
-                      "width": "25px",
-                      "height": "25px",
-                      "border-radius": "50%",
-                      "& when (@countersType = 'circle')": {
-                        "background": "none",
-                        "border": "1px solid @counterColor",
-                        "color": "@counterColor"
-                      },
-                      "& when (@countersType = 'square')": {
-                        "border-radius": "0"
-                      },
-                      "& when (@mark)": {
-                        "content": "'✓'"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "_name": "content12",
-          "_customHTML": "<section class=\"mbr-section article content12\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"color\" title=\"Counter Color\" name=\"counterColor\" value=\"#ffffff\" condition=\"stylizedCounters\">\n        <input type=\"checkbox\" title=\"Stylized Counters\" name=\"stylizedCounters\" checked>\n        <input type=\"checkbox\" title=\"Mark\" name=\"mark\" condition=\"stylizedCounters\">\n        <select title=\"Counters Type\" name=\"countersType\" condition=\"stylizedCounters\">\n            <option value=\"default\" selected>Сircle Fill</option>\n            <option value=\"circle\">Circle</option>\n            <option value=\"square\">Square</option>\n        </select>   \n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text counter-container col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>\n                <ul>\n                    <li>2020-07-12 -&nbsp;<b>Sustentabilidade: O mantra para retalhistas e consumidores</b>: A procura por produtos sustentáveis foi alvo de estudo pela International Trade Centre, com o financiamento da Comissão Europeia Direcção Geral do Comércio. Este é um sector que, em 2018, vendeu mais 40,7 mil milhões de euros na União Europeia<a href=\"artigos_sustentabilidade_mantra_2020_07_12.html\">(ler...)</a></li><li>2020-07-23 -&nbsp;<b>Modelos de negócios sustentáveis:</b>&nbsp;A primeira questão que emerge quando falamos de sustentabilidade é a questão de “valor”. Empresas e escolas de negócios falam profusamente de valor, mas o que é valor?&nbsp; (<a href=\"artigos_modelos-negocio-sustentaveis_2020_07_23.html\">ler...</a>)</li></ul><ul>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "s4x1hl1FTh",
-          "_anchor": "content12-3h",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -4836,11 +4883,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "s5zy8kYVwq",
+          "_anchor": "menu1-40",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-40"
+          "_params": {}
         },
         {
           "alias": false,
@@ -4865,11 +4912,11 @@
           "_name": "header16",
           "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1281.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#efefef\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Modelos de negócio sustentáveis</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Full width intro with adjustable height, background image and a color overlay. Click any text to edit or style it.\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">LEARN MORE</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "s5zy8lSQQm",
+          "_anchor": "header16-41",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header16-41"
+          "_params": {}
         },
         {
           "alias": false,
@@ -4899,11 +4946,11 @@
           "_name": "content9",
           "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>A primeira questão que emerge quando falamos de sustentabilidade é a questão de “valor”. Empresas e escolas de negócios falam profusamente de valor, mas o que é valor?&nbsp;</div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_cid": "s5zy8miUa7",
+          "_anchor": "content9-42",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content9-42"
+          "_params": {}
         },
         {
           "alias": false,
@@ -4958,11 +5005,11 @@
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
           "_cid": "s5zy8n6TSW",
+          "_anchor": "content12-44",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content12-44"
+          "_params": {}
         },
         {
           "alias": false,
@@ -4977,11 +5024,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><br></p><p><a href=\"index.html\">Plan4sustain</a>, 23 de julho de 2020.</p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "s5zy8nmXJG",
+          "_anchor": "content1-45",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-45"
+          "_params": {}
         },
         {
           "alias": false,
@@ -5059,11 +5106,11 @@
           "_name": "social-buttons3",
           "_customHTML": "<section group=\"Social\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"SocialLikes,Socicon\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Square Icons\" name=\"squareIcons\">\n        <header>It will share the current page</header>\n        <input type=\"checkbox\" title=\"Facebook\" name=\"facebook\" checked>\n        <input type=\"checkbox\" title=\"Twitter\" name=\"twitter\" checked>\n        <input type=\"checkbox\" title=\"Vkontakte\" name=\"vkontakte\">\n        <input type=\"checkbox\" title=\"Odnoklassniki\" name=\"odnoklassniki\">\n        <input type=\"checkbox\" title=\"Pinterest\" name=\"pinterest\">\n        <input type=\"checkbox\" title=\"Mailru\" name=\"mailru\">\n        \n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-md-8 align-center\">\n                <h2 class=\"pb-3 mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title \"></h2>\n                <div>\n                    <div class=\"mbr-social-likes\">\n                        <span mbr-if=\"facebook\" class=\"btn btn-social socicon-bg-facebook facebook mx-2\" title=\"Share link on Facebook\">\n                            <i class=\"socicon socicon-facebook\"></i>\n                        </span>\n                        <span mbr-if=\"twitter\" class=\"btn btn-social twitter socicon-bg-twitter mx-2\" title=\"Share link on Twitter\">\n                            <i class=\"socicon socicon-twitter\"></i>\n                        </span>\n                        <span mbr-if=\"vkontakte\" class=\"btn btn-social vkontakte socicon-bg-vkontakte mx-2\" title=\"Share link on VKontakte\">\n                            <i class=\"socicon socicon-vkontakte\"></i>\n                        </span>\n                        <span mbr-if=\"odnoklassniki\" class=\"btn btn-social odnoklassniki socicon-bg-odnoklassniki mx-2\" title=\"Share link on Odnoklassniki\">\n                            <i class=\"socicon socicon-odnoklassniki\"></i>\n                        </span>\n                        <span mbr-if=\"pinterest\" class=\"btn btn-social pinterest socicon-bg-pinterest mx-2\" title=\"Share link on Pinterest\">\n                            <i class=\"socicon socicon-pinterest\"></i>\n                        </span>\n                        <span mbr-if=\"mailru\" class=\"btn btn-social mailru socicon-bg-mail mx-2\" title=\"Share link on Mailru\">\n                            <i class=\"socicon socicon-mail\"></i>\n                        </span>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s5zy8nEXaf",
+          "_anchor": "social-buttons3-46",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "social-buttons3-46"
+          "_params": {}
         },
         {
           "alias": false,
@@ -5080,11 +5127,11 @@
           "_name": "footer6",
           "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\"></p><p>\n                    <a href=\"termos.html\"></a><a href=\"termos.html\"></a>© Copyright 2020 <a href=\"index.html\">Plan4Sustain</a>. <a href=\"termos.html\">Termos</a>, <a href=\"privacidade.html\">Privacidade</a>.</p><p></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s5zy8o7zTX",
+          "_anchor": "footer6-47",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
-          "_params": {},
-          "_anchor": "footer6-47"
+          "_params": {}
         }
       ]
     }
