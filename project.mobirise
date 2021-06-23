@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Plan4Sustain",
-    "currentPage": "sobrenos.html",
+    "currentPage": "contactos.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -60,7 +60,7 @@
     "witsec-mailform-recaptcha-secretkey": "",
     "witsec-mailform-recaptcha-score": "0.5",
     "witsec-mailform": true,
-    "favicon": "@PROJECT_PATH@/assets/images/favicon-102x97-1.png",
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-102x97_1.png",
     "imageResize": true,
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
@@ -80,7 +80,7 @@
     },
     "witsec-white-label": true,
     "uniqCompNum": 173,
-    "versionPublish": "5.1.7",
+    "versionPublish": "5.3.10",
     "screenshot": "screenshot.png",
     "gdpr": {
       "colorText": "#a7a7a7",
@@ -89,7 +89,8 @@
       "text": "Ao continuar estará a concordar com os nossos <a href='https://plan4sustain.pt/termos.html'>Termos de Utilização</a> e com a nossa <a href='https://plan4sustain.pt/privacidade.html'>Política de Privacidade</a>."
     },
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-171062529-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-171062529-1');\n</script>",
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n"
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "mbrsiteDomain": "g0r1zxnvnu"
   },
   "pages": {
     "index.html": {
